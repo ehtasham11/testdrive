@@ -1,0 +1,22 @@
+[tool.poetry]
+name = "genai-python"
+version = "0.1.0"
+description = ""
+authors = ["ehtashamtoor <ehtashamtoor50@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+langchain = "^0.2.16"
+langchain-community = "^0.2.16"
+langchain-google-genai = "^1.0.10"
+python-dotenv = "^1.0.1"
+requests = "^2.32.3"
+beautifulsoup4 = "^4.12.3"
+faiss-gpu = "^1.7.2"
+langgraph = "^0.2.34"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
